@@ -31,7 +31,7 @@ namespace advoop4
     }
     public class BookFunctions
     {
-        public delegate string BookFunctionDelegate(Book B);
+        //public delegate string BookFunctionDelegate(Book B);
         public static string GetTitle(Book B)
         {
             return B.Title;
